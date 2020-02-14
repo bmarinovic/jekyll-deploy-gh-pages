@@ -1,4 +1,4 @@
-FROM ruby:2.6.5
+FROM ruby:2.7.0
 ENV RUBYGEMS_VERSION=2.7.0
 
 # Set default locale for the environment
@@ -14,6 +14,5 @@ LABEL "com.github.actions.color"="green"
 LABEL "repository"="http://github.com/bmarinovic/jekyll-deploy-gh-pages/tree/master/build"
 
 ADD entrypoint.sh /entrypoint.sh
-
 
 ENTRYPOINT ["/entrypoint.sh"]
