@@ -5,8 +5,8 @@ set -e
 echo '👍 ENTRYPOINT HAS STARTED—INSTALLING THE GEM BUNDLE'
 gem uninstall -i /usr/local/lib/ruby/gems/2.4.0 bundler
 gem install bundler
-gem update --system
 bundle update --bundler
+gem update --system
 bundle install
 bundle list | grep "jekyll ("
 echo '👍 BUNDLE INSTALLED—BUILDING THE SITE'
