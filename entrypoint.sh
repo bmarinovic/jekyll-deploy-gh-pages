@@ -3,7 +3,7 @@
 set -e
 
 echo '👍 ENTRYPOINT HAS STARTED—INSTALLING THE GEM BUNDLE'
-gem uninstall -i /usr/local/lib/ruby/gems/2.4.0 bundler
+# gem uninstall -i /usr/local/lib/ruby/gems/2.4.0 bundler
 gem install bundler
 bundle update --bundler
 gem update --system
