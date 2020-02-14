@@ -3,8 +3,8 @@
 set -e
 
 echo '👍 ENTRYPOINT HAS STARTED—INSTALLING THE GEM BUNDLE'
-gem update --system
 gem install bundler
+gem update --system
 bundle update --bundler
 bundle install
 bundle list | grep "jekyll ("
