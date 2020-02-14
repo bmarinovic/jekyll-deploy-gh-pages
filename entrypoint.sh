@@ -3,6 +3,7 @@
 set -e
 
 echo '👍 ENTRYPOINT HAS STARTED—INSTALLING THE GEM BUNDLE'
+gem uninstall bundler
 gem install bundler
 gem update --system
 bundle update --bundler
