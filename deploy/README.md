@@ -18,9 +18,9 @@ workflow "Deploy Jekyll" {
 }
 
 action "Deploy Jekyll" {
-  uses = "BryanSchuetz/jekyll-deploy-gh-pages/deploy@master"
+  uses = "bmarinovic/jekyll-deploy-gh-pages/deploy@master"
   secrets = ["GITHUB_TOKEN"]
-  needs = "BryanSchuetz/jekyll-deploy-gh-pages/build@master"
+  needs = "bmarinovic/jekyll-deploy-gh-pages/build@master"
 }
 ```
 

@@ -11,7 +11,7 @@ LABEL "com.github.actions.description"="Builds the project to GitHub Pages"
 LABEL "com.github.actions.icon"="globe"
 LABEL "com.github.actions.color"="green"
 
-LABEL "repository"="http://github.com/BryanSchuetz/jekyll-deploy-gh-pages/tree/master/build"
+LABEL "repository"="http://github.com/bmarinovic/jekyll-deploy-gh-pages/tree/master/build"
 
 ADD entrypoint.sh /entrypoint.sh
 

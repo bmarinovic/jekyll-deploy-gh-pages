@@ -1,5 +1,5 @@
 #!/bin/sh
-cd build
+cd build || exit
 remote_repo="https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" && \
 remote_branch="gh-pages" && \
 git init && \

@@ -15,7 +15,7 @@ workflow "Build Site" {
 }
 
 action "Build Jekyll" {
-  uses = "BryanSchuetz/jekyll-deploy-gh-pages/build@master"
+  uses = "bmarinovic/jekyll-deploy-gh-pages/build@master"
   secrets = [""]
 }
 ```
