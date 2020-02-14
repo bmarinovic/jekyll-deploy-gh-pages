@@ -4,8 +4,8 @@ set -e
 
 echo '👍 ENTRYPOINT HAS STARTED—INSTALLING THE GEM BUNDLE'
 gem update --system
+gem install bundler
 bundle install
-bundle update --bundler
 bundle list | grep "jekyll ("
 echo '👍 BUNDLE INSTALLED—BUILDING THE SITE'
 bundle exec jekyll build
