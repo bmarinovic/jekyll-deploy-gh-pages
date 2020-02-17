@@ -1,13 +1,10 @@
----
-**Note**
-
+> **_NOTE:_**
 This is fork of a `BryanSchuetz/jekyll-deploy-gh-pages` GitHub Action. The reason for fork was due to inability to use newer Jekyll versions.
-
 This Action is using newer `Ruby` Docker image and updates gem system and bundler.
-
 The Action was tested with Jekyll 4.0.
 
 ---
+
 > **This action has been updated from the first beta version of GH Actions to the new beta version of GH Actions. See below for the new structure required in your workflow.**
 
 # A GitHub Action for Custom Jekyll Builds on GitHub Pages
